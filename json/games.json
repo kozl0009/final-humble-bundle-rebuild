@@ -1,0 +1,39 @@
+[
+	{
+	    "title" : "LUFTRAUSERS (Pre-order)", 
+	    "os"   : "steam,drm,mac,windows,linux",
+	    "price" : "$9.99",
+		"salePrice" : "$8.99",
+		"thumbImageUrl" : "1.jpg",
+		"mediumImageUrl" : ".jpg",
+		"largeImageUrl" : ".jpg",
+	    "videoUrl" : "https://www.youtube.com/watch?feature=player_embedded&v=VauCrcG2wIU",
+		"description" : "<p>Please note: This pre-order will be available for download on March 18!</p><p>The skies will be set aflame and the seas will overflow with wreckage in Vlambeer’s stylish arcade shooter LUFTRAUSERS! Select from over 125 combinations of weapons, bodies, and propulsion systems and take to the skies to battle enemy fighter planes, battleships, submarines, and rival aces for glory, honor, and high scores. Bravely volunteer for one of over 100 daring missions to unlock new Rauser combinations and vibrant color variations and become the most legendary Rauser pilot of all time!</p>",
+		"developer" : "Vlambeer",
+		"developerLink" : "http://www.vlambeer.com/",
+		"publisher" : "Devolver Digital",
+		"publisherLink" : "http://www.devolverdigital.com/",
+		"parentalAdvisory" : "e.png",
+		"moreInfo" : ""
+	},
+	{
+	    "title" : "KickBeat", 
+	    "os"   : "steam,windows",
+	    "price" : "$9.99",
+		"salePrice" : "",
+		"thumbImageUrl" : "2.jpg",
+		"mediumImageUrl" : ".jpg",
+		"largeImageUrl" : ".jpg",
+	    "videoUrl" : "https://www.youtube.com/watch?feature=player_embedded&v=H7IK2v7pthk",
+		"description" : "<p>From indie pioneers Zen Studios (makers of Pinball FX2 and CastleStorm) comes KickBeat, an innovative rhythm game with a Kung Fu theme, featuring fully 3D characters and high-energy music! You can use your own music to create custom KickBeat tracks, allowing you ultimate replayability!</p>
+		<p>The KickBeat Steam Edition Soundtrack features six exclusive tracks from the Electronic Super Joy OST, and a diverse lineup of artists from well-known bands such as Pendulum andMarilyn Manson, to indie musicians Celldweller and Blue Stahli, to hidden talents like electronic music producer Voicians and Taiwanese rapper Shen Yi.</p>
+		<p>Beat Your Music mode features a set of tools allowing players to use their own music to create custom KickBeat tracks. Experiment with different types of music to create different types of fights!</p>",
+		"developer" : "Zen Studios",
+		"developerLink" : "http://blog.zenstudios.com/",
+		"publisher" : "System requirements",
+		"publisherLink" : "https://www.humblebundle.com/store/p/kickbeat_storefront#",
+		"parentalAdvisory" : "t.png",
+		"moreInfo" : ""
+	},
+]
+
