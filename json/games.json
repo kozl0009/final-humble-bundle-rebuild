@@ -1,5 +1,41 @@
 [
 	{
+		"title" : "Neil Gaiman's Wayward Manor",
+		"os" : "steam,mac,windows",
+	    "price" : "$9.99",
+		"salePrice" : "",
+		"thumbImageUrl" : "",
+		"mediumImageUrl" : "",
+		"largeImageUrl" : "3.jpg",
+	    "videoUrl" : "https://www.youtube.com/watch?feature=player_embedded&v=SnNCxLl3H_Y",
+		"description" : "<p>Please note: This is a Pre-order. You will be provided with a Steam key upon release, eta Spring 2014!</p><p>Based on an original tale by Neil Gaiman, Wayward Manor is a puzzle/adventure game hybrid that invites players to solve the mysteries of the mansion any way they choose. You play as a disgruntled ghost, trying to reclaim your house from its newfound owners. This dysfunctional family of misfits and eccentrics have stifled your power and brought their own abysmal possessions into your humble abode. Each level is a playground for scares where players absorb fear to take back control of the room. If you want free reign over your mansion once again, you must uncover their deepest anxieties and drive them mad with fear using your wits and their hideous belongings.</p>",
+		"developer" : "The Odd Gentlemen",
+		"developerLink" : "http://oddgentlemen.tumblr.com/",
+		"publisher" : "Moonshark, Inc",
+		"publisherLink" : "http://moonshark.com/",
+		"parentalAdvisory" : "",
+		"moreInfo" : "",
+		"category" : "featuredLarge"
+	},
+	{
+		"title" : "Hero Siege",
+		"os" : "steam,drm,windows",
+	    "price" : "$9.99",
+		"salePrice" : "$4.99",
+		"thumbImageUrl" : "",
+		"mediumImageUrl" : "4.jpg",
+		"largeImageUrl" : "",
+	    "videoUrl" : "https://www.youtube.com/watch?feature=player_embedded&v=YrW32k-fTE8",
+		"description" : "<p>The kingdom of Tarethiel has been taken over by creatures of hell. Your mission is to cleanse the kingdom and free the citizen from the agonizing wrath of the demon child called Damien.</p><p>Grab your axe, bow, gun or magic powers and start purging the Gate Keepers and their minions! Hero Siege is a gore filled Hack N Slash game with heavy Roguelike elements. Choose a class and start your survival journey. Find secrets, obtain items, slay hordes of different enemies and bosses.</p><p><b>FEATURES:</b></p><p><ul><li>Randomly generated levels, items, dungeons, bosses, secrets and events. Every game session you play is different!</li><li>Over 100 unique crafted items that are either passive, usable or orbiting.</li><li>Over 40 different enemies with the possibility to spawn as rare or elite with extra hp/damage and abilities, but dropping better loot and giving more exp!</li><li>Over 50 Achievements to unlock!</li><li>Many different perks to unlock!</li><li>Customize your character!</li><li>3 Acts which all consist of 5 zones</li></ul></p>",
+		"developer" : "Panic Art Studios",
+		"developerLink" : "http://panicartstudios.com/",
+		"publisher" : "System Requirements",
+		"publisherLink" : "https://www.humblebundle.com/store/p/herosiege_storefront#",
+		"parentalAdvisory" : "",
+		"moreInfo" : "",
+		"category" : "featuredMedium"
+	},
+	{
 	    "title" : "LUFTRAUSERS (Pre-order)", 
 	    "os"   : "steam,drm,mac,windows,linux",
 	    "price" : "$9.99",
@@ -14,7 +50,8 @@
 		"publisher" : "Devolver Digital",
 		"publisherLink" : "http://www.devolverdigital.com/",
 		"parentalAdvisory" : "e.png",
-		"moreInfo" : ""
+		"moreInfo" : "",
+		"category" : "list"
 	},
 	{
 	    "title" : "KickBeat", 
@@ -33,7 +70,8 @@
 		"publisher" : "System requirements",
 		"publisherLink" : "https://www.humblebundle.com/store/p/kickbeat_storefront#",
 		"parentalAdvisory" : "t.png",
-		"moreInfo" : ""
+		"moreInfo" : "",
+		"category" : "list"
 	},
 ]
 
