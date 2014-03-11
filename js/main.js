@@ -12,6 +12,7 @@ jQuery(document).ready(function($){
 			});
 			slide=false;
 			*/
+			alert(i);
 			$( "#game-"+i).css('display', 'none');
 			alert("#game-"+i.innerHTML);
 		}
