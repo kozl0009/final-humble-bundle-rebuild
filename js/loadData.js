@@ -53,7 +53,11 @@
               console.log('loop all moreinfo: ' + jsonObj[key].moreinfo);
 			  console.log('loop all category: ' + jsonObj[key].category);
 
-              // the element to append everything to.
+			  // the element to append Info to
+			  var gamesList = document.getElementById('list-of-games');
+			  gamesList.html(jsonObj[key].id + "<br />");
+			  
+			  // the element to append everything to.
               //var feedWrapper = document.getElementById('article-feed');
 
               // Article Heading and Link - Title is text, url is href
