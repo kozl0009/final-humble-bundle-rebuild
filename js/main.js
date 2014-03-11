@@ -4,10 +4,10 @@ jQuery(document).ready(function($){
 	
 	$( '#list-of-games' ).on('click', '.game-line', function(e) {
 		
-		for(var i=1;i<8;i++){
+		for(var i=1;i<18;i++){
 			$( "#game-"+i ).slideUp( "fast", function() {
 				//Animation Complete
-				alert("here");
+				//alert("here");
 			});
 			slide=false;
 		}
