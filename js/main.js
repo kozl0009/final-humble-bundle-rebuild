@@ -13,6 +13,7 @@ jQuery(document).ready(function($){
 				//$( "#game-"+this.id ).css('display', 'block');
 			});
 			iLoop=0;
+			descrSelected=this.id;
 		}else{
 			iLoop=iLoop+1;
 		}
