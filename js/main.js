@@ -3,12 +3,12 @@ jQuery(document).ready(function($){
 	var slide=false;
 	var descrSelected = "0";
 	
-	$( '#list-of-games' ).on('click', '.game-line', function(e) {
+	$( '#list-of-games' ).on('click', '.game-line', function() {
 		$( "#game-"+descrSelected ).slideUp( "fast", function() {
-			$( "#game-"+descrSelected ).css('display', 'none');
+			//$( "#game-"+descrSelected ).css('display', 'none');
 		});
 		$( "#game-"+this.id ).slideDown( "fast", function() {
-			$( "#game-"+this.id ).css('display', 'block');
+			//$( "#game-"+this.id ).css('display', 'block');
 		});
 		descrSelected = this.id;
 		alert(descrSelected);
