@@ -24,10 +24,10 @@ jQuery(document).ready(function($){
 	//hide story actions
 	var storyActions = ".addToCart";
 	//$( storyActions ).hide();
-	var priceDiv = ".price";
+	var priceDiv = "#list-of-games";
 
 	// With the element initially hidden, we can show it slowly:
-	$( priceDiv ).mouseenter(function() {
+	$( priceDiv ).on('mouseenter', '.price', function() {
 		$("#game-"+this.id).css('display','block');
 		$("#"+this.id).css('display','none'); 
 		$("#game-"+this.id).css('white-space','nowrap');
