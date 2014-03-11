@@ -14,6 +14,9 @@ jQuery(document).ready(function($){
 			descrSelected = this.id;
 			slide=true;
 		}else{
+			$( "#game-"+this.id ).slideDown( "fast", function() {
+				//$( "#game-"+this.id ).css('display', 'block');
+			});
 			slide=false;	
 		}
 	});
