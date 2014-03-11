@@ -4,22 +4,13 @@ jQuery(document).ready(function($){
 	var descrSelected;
 	
 	$( '#list-of-games' ).on('click', '.game-line', function(e) {
-		
+		$( "#game-"+descrSelected ).slideUp( "fast", function() {
+			$( "#game-"+descrSelected ).css('display', 'none');
+		});
+		$( "#game-"+this.id ).slideDown( "fast", function() {
+			$( "#game-"+this.id ).css('display', 'block');
+		});
 		descrSelected = this.id;
-		if(slide==false){
-			$( "#game-"+descrSelected ).slideUp( "fast", function() {
-				$( "#game-"+descrSelected ).css('display', 'none');
-			});
-			$( "#game-"+this.id ).slideDown( "fast", function() {
-				$( "#game-"+this.id ).css('display', 'block');
-			});
-		    slide=true;
-		}else{
-			$( "#game-"+this.id ).slideUp( "fast", function() {
-				$( "#game-"+this.id).css('display', 'none');
-			});
-			slide=false;
-		}
 	});
 	
 	//hide story actions
