@@ -2,7 +2,7 @@ jQuery(document).ready(function($){
 
 	var slide=false;
 	
-	$( '.game-line .title' ).live('click', function() {
+	$( '#list-of-games' ).on('click', '.game-line', function(e) {
 		
 		for(var i=1;i<$(".game-line .title").length+1;i++){
 			$( "#game-"+i ).slideUp( "fast", function() {
