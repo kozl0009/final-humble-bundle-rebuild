@@ -1,8 +1,10 @@
 jQuery(document).ready(function($){
 	var slide=false;
 	var descrSelected=0;
+	var iLoop=0;
 	$( '#list-of-games' ).on('click', '.game-line', function(e) {
-			if(descrSelected!=this.id && descrSelected!=0){
+		if(i==4){
+			if(descrSelected!=this.id){
 				$( "#game-"+descrSelected ).slideUp( "fast", function() {
 					//$( "#game-"+descrSelected ).css('display', 'none');
 				});	
@@ -10,11 +12,9 @@ jQuery(document).ready(function($){
 			$( "#game-"+this.id ).slideDown( "fast", function() {
 				//$( "#game-"+this.id ).css('display', 'block');
 			});
-			if(this.id==""){
-				descrSelected = 0;
-			}else{
-				descrSelected = this.id;
-			}
+		}else{
+			i++;
+		}
 	});
 	
 	
