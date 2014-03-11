@@ -3,22 +3,23 @@ jQuery(document).ready(function($){
 	var descrSelected=0;
 	var iLoop=0;
 	$( '#list-of-games' ).on('click', '.game-line', function(e) {
-		
-		if(iLoop==2){
-			if(descrSelected!=this.id){
-				$( "#game-"+descrSelected ).slideUp( "fast", function() {
-					//$( "#game-"+descrSelected ).css('display', 'none');
-				});	
+		$(this).on('click', '.title', function(){
+			if(iLoop==2){
+				if(descrSelected!=this.id){
+					$( "#game-"+descrSelected ).slideUp( "fast", function() {
+						//$( "#game-"+descrSelected ).css('display', 'none');
+					});	
+				}
+				$( "#game-"+this.id ).slideDown( "fast", function() {
+					//$( "#game-"+this.id ).css('display', 'block');
+				});
+				iLoop=0;
+				descrSelected=this.id;
+			}else{
+				iLoop=iLoop+1;
 			}
-			$( "#game-"+this.id ).slideDown( "fast", function() {
-				//$( "#game-"+this.id ).css('display', 'block');
-			});
-			iLoop=0;
-			descrSelected=this.id;
-		}else{
-			iLoop=iLoop+1;
-		}
-		iLoop=0;
+		});
+
 	});
 	
 	
