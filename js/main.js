@@ -2,7 +2,7 @@ jQuery(document).ready(function($){
 	var slide=false;
 	var descrSelected=0;
 	$( '#list-of-games' ).on('click', '.game-line', function(e) {
-			if(descrSelected!=0 && descrSelected!=this.id){
+			if(descrSelected!=this.id){
 				$( "#game-"+descrSelected ).slideUp( "fast", function() {
 					//$( "#game-"+descrSelected ).css('display', 'none');
 				});	
