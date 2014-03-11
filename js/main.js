@@ -1,11 +1,19 @@
 jQuery(document).ready(function($){
-	alert("why not working");
 	var slide=false;
 	var descrSelected=0;
-	alert("there we go");
 	$( '#list-of-games' ).on('click', '.game-line', function(e) {
-		alert("here");
-		
+		if(descrSelected!=0){
+			$( "#game-"+descrSelected ).slideUp( "fast", function() {
+				//$( "#game-"+descrSelected ).css('display', 'none');
+			});	
+		}
+		alert("now here");
+		$( "#game-"+this.id ).slideDown( "fast", function() {
+			//$( "#game-"+this.id ).css('display', 'block');
+		});
+		alert("and now here");
+		descrSelected = this.id;
+		alert(descrSelected);
 	});
 	
 	//hide story actions
