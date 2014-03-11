@@ -14,7 +14,7 @@ jQuery(document).ready(function($){
 			*/
 			alert(i);
 			$( "#game-"+i).css('display', 'none');
-			alert("#game-"+i.innerHTML);
+			alert("#game-"+i);
 		}
 		if(slide==false){
 			$( "#game-"+this.id ).slideDown( "fast", function() {
