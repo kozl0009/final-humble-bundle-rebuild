@@ -13,7 +13,7 @@ jQuery(document).ready(function($){
 				//$( "#game-"+this.id ).css('display', 'block');
 			});
 		}else{
-			iLoop++;
+			iLoop=iLoop+1;
 			alert(iLoop);
 		}
 		iLoop=0;
