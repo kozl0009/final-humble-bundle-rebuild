@@ -39,6 +39,15 @@ jQuery(document).ready(function($){
 		$("#"+this.id).css('white-space','nowrap');
 	});
 	
+/* fancybox trigger */
+
+$('#featured-game-6-descr').click(function() {
+    $.fancybox({
+        type: 'inline',
+        content: '#inline1'
+    });
+});
+
 	
 	/*
 	Add to cart fly effect with jQuery. - May 05, 2013
