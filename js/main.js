@@ -3,7 +3,7 @@ jQuery(document).ready(function($){
 	var descrSelected=0;
 	var iLoop=0;
 	$( '#list-of-games' ).on('click', '.game-line', function(e) {
-		if(iLoop==4){
+		if(iLoop==2){
 			if(descrSelected!=this.id){
 				$( "#game-"+descrSelected ).slideUp( "fast", function() {
 					//$( "#game-"+descrSelected ).css('display', 'none');
