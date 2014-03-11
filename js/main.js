@@ -5,11 +5,14 @@ jQuery(document).ready(function($){
 	$( '#list-of-games' ).on('click', '.game-line', function(e) {
 		
 		for(var i=1;i<18;i++){
+			/*
 			$( "#game-"+i ).slideUp( "fast", function() {
 				//Animation Complete
 				//alert("here");
 			});
 			slide=false;
+			*/
+			$( "#game-"+i).css('display', 'none');
 		}
 		if(slide==false){
 			$( "#game-"+this.id ).slideDown( "fast", function() {
