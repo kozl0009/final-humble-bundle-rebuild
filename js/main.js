@@ -26,23 +26,12 @@ jQuery(document).ready(function($){
 
 	// With the element initially hidden, we can show it slowly:
 	$( priceDiv ).on('mouseenter', '.game-line', function() {
-		$(this).on('mouseenter', '.price', function() {
-			$("#game-"+this.id).css('display','block');
-			$("#"+this.id).css('display','none'); 
-			$("#game-"+this.id).css('white-space','nowrap');
-			$("#"+this.id).css('white-space','nowrap');
-		});
-	});
-	
-	$( priceDiv ).on('mouseleave', '.game-line', function() {
-		$(this).on('mouseleave', '.addToCart', function() {
-		    var cartId = this.id;
-		    var parts = cartId.split('-');
-			$("#game-"+parts[1]+parts[2]).css('display','none');
-			$("#"+parts[1]+parts[2]).css('display','block'); 
-			$("#game-"+parts[1]+parts[2]).css('white-space','nowrap');
-			$("#"+parts[1]+parts[2]).css('white-space','nowrap');
-			alert("here");
+		$(this).on('mouseenter', '.buttons', function() {
+			$(".addToCart").css('display','block');
+			$(".price").css('display','none'); 
+		}).on('mouseleave', '.buttons', function() {
+			$(".addToCart").css('display','none');
+			$(".price").css('display','block'); 
 		});
 	});
 	
