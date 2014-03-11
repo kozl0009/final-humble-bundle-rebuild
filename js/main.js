@@ -3,11 +3,11 @@ jQuery(document).ready(function($){
 	var slide=false;
 
 	$( ".game-line .title" ).click(function() {
-	
+		console.log('clicked ');
 		for(var i=1;i<$(".game-line .title").length+1;i++){
 			$( "#game-"+i ).slideUp( "fast", function() {
 				//Animation Complete
-				alert("here");
+				
 			});
 			slide=false;
 		}
