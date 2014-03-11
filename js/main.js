@@ -14,9 +14,9 @@ jQuery(document).ready(function($){
 			});
 			iLoop=0;
 		}else{
-			alert(iLoop);
+			iLoop=iLoop+1;
 		}
-		iLoop=iLoop+1;
+		
 	});
 	
 	
