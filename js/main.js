@@ -18,6 +18,11 @@ jQuery(document).ready(function($){
 			$( "#game-"+this.id ).slideDown( "fast", function() {
 				//$( "#game-"+this.id ).css('display', 'block');
 			});
+			if(descrSelected!=0){
+				$( "#game-"+descrSelected ).slideUp( "fast", function() {
+					//$( "#game-"+descrSelected ).css('display', 'none');
+				});	
+			}
 			slide=false;	
 			alert("second: "+slide);
 		}
