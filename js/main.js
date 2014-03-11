@@ -36,11 +36,11 @@ jQuery(document).ready(function($){
 	
 	$( priceDiv ).on('mouseleave', '.game-line', function() {
 		$(this).on('mouseleave', '.addToCart', function() {
-		    alert(this.id);
-			$("#game-"+this.id).css('display','none');
-			$("#"+this.id).css('display','block'); 
-			$("#game-"+this.id).css('white-space','nowrap');
-			$("#"+this.id).css('white-space','nowrap');
+		    var parts = this.id.split('-');
+			$("#game-"+parts[1]+parts[2]).css('display','none');
+			$("#"+parts[1]+parts[2]).css('display','block'); 
+			$("#game-"+parts[1]+parts[2]).css('white-space','nowrap');
+			$("#"+parts[1]+parts[2]).css('white-space','nowrap');
 		});
 	});
 	
