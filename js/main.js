@@ -44,7 +44,9 @@ jQuery(document).ready(function($){
 $('#featured-game-6-descr').click(function() {
     $.fancybox({
         type: 'inline',
-        content: '#inline1'
+        content: {
+			$("#inline1").css('display', 'block');
+		}
     });
 });
 
