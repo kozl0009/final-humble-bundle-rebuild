@@ -13,9 +13,9 @@ jQuery(document).ready(function($){
 			slide=false;
 			*/
 			//alert(i);
-			$( "#game-"+i).css('display', 'none');
+			$( "#game-"+i).hide();
 			//alert("#game-"+i);
-			if(i==17){ break; }
+			//if(i==17){ break; }
 		}
 		if(slide==false){
 			$( "#game-"+this.id ).slideDown( "fast", function() {
