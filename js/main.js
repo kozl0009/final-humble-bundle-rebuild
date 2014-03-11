@@ -32,7 +32,7 @@ jQuery(document).ready(function($){
 		$("#"+this.id).css('display','none'); 
 		$("#game-"+this.id).css('white-space','nowrap');
 		$("#"+this.id).css('white-space','nowrap');
-	}).mouseleave(function() {
+	}).on('mouseleave', '.price', function() {
 		$("#game-"+this.id).css('display','none');
 		$("#"+this.id).css('display','block'); 
 		$("#game-"+this.id).css('white-space','nowrap');
