@@ -36,6 +36,7 @@ jQuery(document).ready(function($){
 	
 	$( priceDiv ).on('mouseleave', '.game-line', function() {
 		$(this).on('mouseleave', '.addToCart', function() {
+		    alert(this.id);
 			$("#game-"+this.id).css('display','none');
 			$("#"+this.id).css('display','block'); 
 			$("#game-"+this.id).css('white-space','nowrap');
