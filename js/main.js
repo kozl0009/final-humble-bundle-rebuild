@@ -4,10 +4,12 @@ jQuery(document).ready(function($){
 	var descrSelected = "0";
 	
 	$( '#list-of-games' ).on('click', '.game-line', function() {
-	alert("here");
-		$( "#game-"+descrSelected ).slideUp( "fast", function() {
-			//$( "#game-"+descrSelected ).css('display', 'none');
-		});
+		alert("here");
+		if(descrSelected!=0){
+			$( "#game-"+descrSelected ).slideUp( "fast", function() {
+				//$( "#game-"+descrSelected ).css('display', 'none');
+			});	
+		}
 		alert("now here");
 		$( "#game-"+this.id ).slideDown( "fast", function() {
 			//$( "#game-"+this.id ).css('display', 'block');
