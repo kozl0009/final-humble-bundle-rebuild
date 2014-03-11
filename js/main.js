@@ -18,12 +18,12 @@ jQuery(document).ready(function($){
 		}
 		if(slide==false){
 			$( "#game-"+this.id ).slideDown( "fast", function() {
-				//Animation Complete
+				$( "#game-"+this.id ).css('display', 'block');
 			});
 		    slide=true;
 		}else{
 			$( "#game-"+this.id ).slideUp( "fast", function() {
-				//Animation Complete
+				$( "#game-"+this.id).css('display', 'none');
 			});
 			slide=false;
 		}
