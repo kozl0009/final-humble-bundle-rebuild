@@ -21,6 +21,7 @@ jQuery(document).ready(function($){
 			slide=false;	
 			alert("second: "+slide);
 		}
+		slide=true;
 	});
 	
 	
