@@ -51,7 +51,7 @@ jQuery(document).ready(function($){
 
 var inShoppingCart = 0;
 
-	$('#list-of-games').on('click', '.addToCart').click(function () {
+	$('#list-of-games').on('click', '.addToCart', function () {
         var cart = $('.shopping-cart');
         var imgtodrag = $(this).parents('.game-line').find("img").eq(0);
         if (imgtodrag) {
