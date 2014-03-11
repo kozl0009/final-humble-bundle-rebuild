@@ -4,7 +4,6 @@ jQuery(document).ready(function($){
 	var iLoop=0;
 	$( '#list-of-games' ).on('click', '.game-line', function(e) {
 		$(this).on('click', '.title', function(){
-			alert("here");
 			if(iLoop==2){
 				if(descrSelected!=this.id){
 					$( "#game-"+descrSelected ).slideUp( "fast", function() {
