@@ -3,6 +3,7 @@ jQuery(document).ready(function($){
 	var slide=false;
 
 	$( ".game-line .title" ).click(function() {
+	alert("here");
 		for(var i=1;i<$(".game-line .title").length+1;i++){
 			$( "#game-"+i ).slideUp( "fast", function() {
 				//Animation Complete
