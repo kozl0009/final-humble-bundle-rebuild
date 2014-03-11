@@ -12,9 +12,10 @@ jQuery(document).ready(function($){
 			});
 			slide=false;
 			*/
-			alert(i);
+			//alert(i);
 			$( "#game-"+i).css('display', 'none');
-			alert("#game-"+i);
+			//alert("#game-"+i);
+			if(i==17){ break; }
 		}
 		if(slide==false){
 			$( "#game-"+this.id ).slideDown( "fast", function() {
