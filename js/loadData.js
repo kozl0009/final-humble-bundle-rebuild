@@ -1,4 +1,4 @@
-function loadJSON(){
+//function loadJSON(){
    var data_file = "json/games.json";
    var http_request = new XMLHttpRequest();
    try{
@@ -80,6 +80,6 @@ function loadJSON(){
    }
    http_request.open("GET", data_file, true);
    http_request.send();
-}
+//}
 
-auto load loadJSON();
+//auto load loadJSON();
