@@ -55,7 +55,10 @@
 
 			  // the element to append Info to
 			  var gamesList = document.getElementById('list-of-games');
-			  gamesList.innerHTML(jsonObj[key].id + "<br />");
+			  var eachGameLine = document.createElement('<div>');
+			  eachGameLine.setAttribute('class', 'eachGameLine');
+			  eachGameLine.innerHTML(jsonObj[key].id + "<br />");
+			  gamesList.appendChild(eachGameLine);
 			  
 			  // the element to append everything to.
               //var feedWrapper = document.getElementById('article-feed');

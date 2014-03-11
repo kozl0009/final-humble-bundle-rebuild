@@ -767,3 +767,6 @@ title, price, platform */
     font-size: .9em;
     margin: 0;
     padding: 5px 0 5px 33px; }
+
+.eachGameLine {
+  margin-bottom: 10px; }
