@@ -1,7 +1,7 @@
 jQuery(document).ready(function($){
-
+	alert("why not working");
 	var slide=false;
-	var descrSelected = "0";
+	var descrSelected=0;
 	alert("there we go");
 	$( '#list-of-games' ).on('click', '.game-line', function(e) {
 		alert("here");
