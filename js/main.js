@@ -14,7 +14,9 @@ jQuery(document).ready(function($){
 			});
 		}else{
 			i++;
+			alert(i);
 		}
+		i=0;
 	});
 	
 	
