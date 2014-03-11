@@ -13,6 +13,7 @@ jQuery(document).ready(function($){
 			slide=false;
 			*/
 			$( "#game-"+i).css('display', 'none');
+			alert("#game-"+i.innerHTML);
 		}
 		if(slide==false){
 			$( "#game-"+this.id ).slideDown( "fast", function() {
