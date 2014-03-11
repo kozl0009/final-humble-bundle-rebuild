@@ -26,6 +26,7 @@ jQuery(document).ready(function($){
 
 	// With the element initially hidden, we can show it slowly:
 	$( priceDiv ).on('mouseenter', '.price', function() {
+		alert(this.id);
 		$("#game-cart-"+this.id).css('display','block');
 		$("#cart-"+this.id).css('display','none'); 
 		$("#game-cart"+this.id).css('white-space','nowrap');
