@@ -10,7 +10,7 @@ jQuery(document).ready(function($){
 		$( "#game-"+this.id ).slideDown( "fast", function() {
 			$( "#game-"+this.id ).css('display', 'block');
 		});
-		descrSelected = this.id;
+		descrSelected = $(this.id);
 	});
 	
 	//hide story actions
