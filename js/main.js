@@ -25,9 +25,9 @@ jQuery(document).ready(function($){
 	});
 	
 	//hide story actions
-	var storyActions = ".game-line .addToCart";
+	var storyActions = ".addToCart";
 	//$( storyActions ).hide();
-	var priceDiv = ".game-line .price";
+	var priceDiv = ".price";
 
 	// With the element initially hidden, we can show it slowly:
 	$( priceDiv ).mouseenter(function() {
