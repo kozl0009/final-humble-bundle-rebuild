@@ -32,7 +32,9 @@ jQuery(document).ready(function($){
 			$("#game-"+this.id).css('white-space','nowrap');
 			$("#"+this.id).css('white-space','nowrap');
 		});
-	}).on('mouseleave', '.game-line', function() {
+	});
+	
+	$( priceDiv ).on('mouseleave', '.game-line', function() {
 		$(this).on('mouseleave', '.addToCart', function() {
 			$("#game-"+this.id).css('display','none');
 			$("#"+this.id).css('display','block'); 
