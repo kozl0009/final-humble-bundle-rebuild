@@ -2,8 +2,8 @@ jQuery(document).ready(function($){
 
 	var slide=false;
 	var descrSelected = "0";
-	
-	$( '#list-of-games' ).on('click', '.game-line', function() {
+	alert("there we go");
+	$( '#list-of-games' ).on('click', '.game-line', function(e) {
 		alert("here");
 		
 	});
