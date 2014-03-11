@@ -1,11 +1,15 @@
 jQuery(document).ready(function($){
 
 	var slide=false;
+	var descrSelected;
 	
 	$( '#list-of-games' ).on('click', '.game-line', function(e) {
 		
-		
+		descrSelected = this.id;
 		if(slide==false){
+			$( "#game-"+descrSelected ).slideUp( "fast", function() {
+				$( "#game-"+descrSelected ).css('display', 'none');
+			});
 			$( "#game-"+this.id ).slideDown( "fast", function() {
 				$( "#game-"+this.id ).css('display', 'block');
 			});
