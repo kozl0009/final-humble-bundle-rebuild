@@ -12,11 +12,11 @@ jQuery(document).ready(function($){
 			$( "#game-"+this.id ).slideDown( "fast", function() {
 				//$( "#game-"+this.id ).css('display', 'block');
 			});
+			iLoop=0;
 		}else{
-			iLoop=iLoop+1;
 			alert(iLoop);
 		}
-		iLoop=0;
+		iLoop=iLoop+1;
 	});
 	
 	
