@@ -39,13 +39,7 @@ jQuery(document).ready(function($){
 		$("#"+this.id).css('white-space','nowrap');
 	});
 	
-/* fancybox trigger */
 
-$('#featured-game-6-descr').click(function() {
-    $.fancybox({
-		'content' : $("#inline1").css("display","block")           
-	});
-});
 
 	
 	/*
