@@ -6,11 +6,13 @@ jQuery(document).ready(function($){
 				$( "#game-"+descrSelected ).slideUp( "fast", function() {
 					//$( "#game-"+descrSelected ).css('display', 'none');
 				});	
+				alert("here");
 			}
 			$( "#game-"+this.id ).slideDown( "fast", function() {
 				//$( "#game-"+this.id ).css('display', 'block');
 			});
 			descrSelected = this.id;
+			alert(descrSelected);
 	});
 	
 	
