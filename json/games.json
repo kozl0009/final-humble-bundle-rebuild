@@ -1,5 +1,6 @@
 [
 	{
+		"id": "1",
 		"title" : "Neil Gaiman's Wayward Manor",
 		"os" : "steam,mac,windows",
 	    "price" : "$9.99",
@@ -18,6 +19,7 @@
 		"category" : "featuredLarge"
 	},
 	{
+		"id": "2",
 		"title" : "PM Post Master",
 		"os" : "steam,mac,windows",
 	    "price" : "$14.95",
@@ -36,6 +38,7 @@
 		"category" : "featuredMedium"
 	},
 	{
+		"id": "3",
 		"title" : "Kings Bounty: Warriors of the North",
 		"os" : "steam,mac,windows",
 	    "price" : "$24.99",
@@ -76,6 +79,7 @@ Darion is experiencing hard times now. It looks vastly different due to the unde
 		"category" : "featuredMedium"
 	},
 	{
+		"id": "4",
 		"title" : "Kings Bounty: Warriors of the North",
 		"os" : "steam,mac,windows",
 	    "price" : "$24.99",
@@ -116,6 +120,7 @@ Darion is experiencing hard times now. It looks vastly different due to the unde
 		"category" : "featuredMedium"
 	},
 	{
+		"id": "5",
 		"title" : "Kings Bounty: Warriors of the North",
 		"os" : "steam,mac,windows",
 	    "price" : "$24.99",
@@ -156,6 +161,7 @@ Darion is experiencing hard times now. It looks vastly different due to the unde
 		"category" : "featuredMedium"
 	},
 	{
+		"id": "6",
 		"title" : "Kings Bounty: Warriors of the North",
 		"os" : "steam,mac,windows",
 	    "price" : "$24.99",
@@ -196,6 +202,7 @@ Darion is experiencing hard times now. It looks vastly different due to the unde
 		"category" : "featuredMedium"
 	},
 	{
+		"id": "7",
 		"title" : "Kings Bounty: Warriors of the North",
 		"os" : "steam,mac,windows",
 	    "price" : "$24.99",
@@ -236,6 +243,7 @@ Darion is experiencing hard times now. It looks vastly different due to the unde
 		"category" : "featuredMedium"
 	},
 	{
+		"id": "8",
 		"title" : "Kings Bounty: Warriors of the North",
 		"os" : "steam,mac,windows",
 	    "price" : "$24.99",
@@ -276,6 +284,7 @@ Darion is experiencing hard times now. It looks vastly different due to the unde
 		"category" : "featuredMedium"
 	},
 	{
+		"id": "9",
 		"title" : "Kings Bounty: Warriors of the North",
 		"os" : "steam,mac,windows",
 	    "price" : "$24.99",
@@ -316,6 +325,7 @@ Darion is experiencing hard times now. It looks vastly different due to the unde
 		"category" : "featuredMedium"
 	},
 	{
+		"id": "10",
 		"title" : "Hero Siege",
 		"os" : "steam,drm,windows",
 	    "price" : "$9.99",
@@ -334,7 +344,8 @@ Darion is experiencing hard times now. It looks vastly different due to the unde
 		"category" : "featuredMedium"
 	},
 	{
-	    "title" : "LUFTRAUSERS (Pre-order)", 
+	    "id": "11",
+		"title" : "LUFTRAUSERS (Pre-order)", 
 	    "os"   : "steam,drm,mac,windows,linux",
 	    "price" : "$9.99",
 		"salePrice" : "$8.99",
@@ -352,7 +363,8 @@ Darion is experiencing hard times now. It looks vastly different due to the unde
 		"category" : "list"
 	},
 	{
-	    "title" : "KickBeat", 
+	    "id": "12",
+		"title" : "KickBeat", 
 	    "os"   : "steam,windows",
 	    "price" : "$9.99",
 		"salePrice" : "",
@@ -372,7 +384,8 @@ Darion is experiencing hard times now. It looks vastly different due to the unde
 		"category" : "list"
 	},
 	{
-	    "title" : "Banished", 
+	    "id": "13",
+		"title" : "Banished", 
 	    "os"   : "steam,drm,windows",
 	    "price" : "$19.99",
 		"salePrice" : "",
@@ -392,7 +405,8 @@ Darion is experiencing hard times now. It looks vastly different due to the unde
 		"category" : "list"
 	},
 	{
-	    "title" : "Pixel Piracy", 
+	    "id": "14",
+		"title" : "Pixel Piracy", 
 	    "os"   : "steam,windows,linux",
 	    "price" : "$14.99",
 		"salePrice" : "",
@@ -412,7 +426,8 @@ Darion is experiencing hard times now. It looks vastly different due to the unde
 		"category" : "list"
 	},
 	{
-	    "title" : "Starbound (Early Access Game)", 
+	    "id": "15",
+		"title" : "Starbound (Early Access Game)", 
 	    "os"   : "steam,drm,mac,windows,linux",
 	    "price" : "$14.99",
 		"salePrice" : "",
@@ -432,7 +447,8 @@ Darion is experiencing hard times now. It looks vastly different due to the unde
 		"category" : "list"
 	},
 	{
-	    "title" : "Shadowrun Returns", 
+	    "id": "16",
+		"title" : "Shadowrun Returns", 
 	    "os"   : "steam,drm,mac,windows,linux",
 	    "price" : "$19.99",
 		"salePrice" : "$14.99",
@@ -452,7 +468,8 @@ Darion is experiencing hard times now. It looks vastly different due to the unde
 		"category" : "list"
 	},
 	{
-	    "title" : "Hero Siege", 
+	    "id": "17",
+		"title" : "Hero Siege", 
 	    "os"   : "steam,drm,windows",
 	    "price" : "$9.99",
 		"salePrice" : "",
