@@ -2,7 +2,7 @@ jQuery(document).ready(function($){
 
 	var slide=false;
 	
-	$( ".game-line" ).on('click', ' .title', function() {
+	$( ".game-line" ).on('click', ' .title').click(function() {
 		
 		for(var i=1;i<$(".game-line .title").length+1;i++){
 			$( "#game-"+i ).slideUp( "fast", function() {
@@ -51,7 +51,7 @@ jQuery(document).ready(function($){
 
 var inShoppingCart = 0;
 
-	$('.game-line').on('click', ' .addToCart', function () {
+	$('.game-line').on('click', ' .addToCart').click(function () {
         var cart = $('.shopping-cart');
         var imgtodrag = $(this).parents('.game-line').find("img").eq(0);
         if (imgtodrag) {
