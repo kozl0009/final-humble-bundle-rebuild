@@ -53,12 +53,54 @@
               console.log('loop all moreinfo: ' + jsonObj[key].moreinfo);
 			  console.log('loop all category: ' + jsonObj[key].category);
 
-			  // the element to append Info to
-			  var gamesList = document.getElementById('list-of-games');
-			  var eachGameLine = document.createElement('div');
-			  eachGameLine.setAttribute('class', 'eachGameLine');
-			  eachGameLine.innerHTML = jsonObj[key].id + "<br />";
-			  gamesList.appendChild(eachGameLine);
+			  
+			  if(jsonObj[key].category == "list"){
+				  // the element to append Info to
+				  var gamesList = document.getElementById('list-of-games');
+				  var eachGameLine = document.createElement('div');
+				  eachGameLine.setAttribute('class', 'eachGameLine');
+				  eachGameLine.innerHTML = '<div class="game-line">
+					<div class="game-line thumb">
+						<img src="images/games/thumb/1.jpg" border="0" title="" alt="" />
+					</div>
+					<div class="game-line info game" id="1">
+						<div class="game-line title" id="1">Banished</div>
+						<div class="game-line platform">
+							<ul>
+								<li class="steam"></li>
+								<li class="drm"></li>
+								<li class="windows"></li>
+							</ul>
+						</div>
+						<div class="game-line price" id="cart-1">$19.99</div>
+						<div class="game-line addToCart" id="game-cart-1">Add to Cart</div>
+						<div class="game-line game-descr" id="game-1">
+							<div class="youtube-video">
+								<iframe width="100%" height="360" src="https://www.youtube.com/embed/Ls8FBFFjMxk?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
+							</div>
+							<div class="selected-game-info">
+								<div class="description">
+									<p>Please note: This is a Pre-order. You will be provided with a Steam key upon release, eta Spring 2014!</p><p>Based on an original tale by Neil Gaiman, Wayward Manor is a puzzle/adventure game hybrid that invites players to solve the mysteries of the mansion any way they choose. You play as a disgruntled ghost, trying to reclaim your house from its newfound owners. This dysfunctional family of misfits and eccentrics have stifled your power and brought their own abysmal possessions into your humble abode. Each level is a playground for scares where players absorb fear to take back control of the room. If you want free reign over your mansion once again, you must uncover their deepest anxieties and drive them mad with fear using your wits and their hideous belongings.</p>
+								</div>
+								<div class="detailes">
+									<div class="section">
+										<h2>Developer:</h2>
+										<a href="#">Shining Rock Software</a>
+									</div>
+									<div class="section">
+										<h2>More Information:</h2>
+										<a href="#">System Requirements</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- //Game 1 -->';
+				  gamesList.appendChild(eachGameLine);
+			  }
+			  
+			  
+			  
 			  
 			  // the element to append everything to.
               //var feedWrapper = document.getElementById('article-feed');
