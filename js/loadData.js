@@ -1,6 +1,7 @@
 $(document).ready(function(){
    var data_file = "json/games.json";
    var http_request = new XMLHttpRequest();
+   
    try{
       // Opera 8.0+, Firefox, Chrome, Safari
       http_request = new XMLHttpRequest();
@@ -18,6 +19,8 @@ $(document).ready(function(){
          }
       }
    }
+   http_request.open("GET", data_file, true);
+   http_request.send();
    http_request.onreadystatechange  = function(){
 
       // readyState == 4 means the request was successful
@@ -78,8 +81,7 @@ $(document).ready(function(){
       }
 
    }
-   http_request.open("GET", data_file, true);
-   http_request.send();
+   
 
 //auto load loadJSON();
 });
