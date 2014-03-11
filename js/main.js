@@ -2,19 +2,20 @@ jQuery(document).ready(function($){
 	var slide=false;
 	var descrSelected=0;
 	$( '#list-of-games' ).on('click', '.game-line', function(e) {
-		if(descrSelected!=0){
-			$( "#game-"+descrSelected ).slideUp( "fast", function() {
-				//$( "#game-"+descrSelected ).css('display', 'none');
-			});	
+		if(slide==false){
+			if(descrSelected!=0){
+				$( "#game-"+descrSelected ).slideUp( "fast", function() {
+					//$( "#game-"+descrSelected ).css('display', 'none');
+				});	
+			}
+			$( "#game-"+this.id ).slideDown( "fast", function() {
+				//$( "#game-"+this.id ).css('display', 'block');
+			});
+			descrSelected = this.id;
+			slide=true;
 		}
-		alert("now here");
-		$( "#game-"+this.id ).slideDown( "fast", function() {
-			//$( "#game-"+this.id ).css('display', 'block');
-		});
-		alert("and now here");
-		descrSelected = this.id;
-		alert(descrSelected);
 	});
+	slide=false;
 	
 	//hide story actions
 	var storyActions = ".addToCart";
