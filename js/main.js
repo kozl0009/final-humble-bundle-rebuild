@@ -2,7 +2,7 @@ jQuery(document).ready(function($){
 
 	var slide=false;
 	
-	$( '#list-of-games' ).on('click', '.title').click(function() {
+	$( '.game-line .title' ).live('click', function() {
 		
 		for(var i=1;i<$(".game-line .title").length+1;i++){
 			$( "#game-"+i ).slideUp( "fast", function() {
@@ -51,7 +51,7 @@ jQuery(document).ready(function($){
 
 var inShoppingCart = 0;
 
-	$('#list-of-games').on('click', '.addToCart').click(function () {
+	$('#list-of-games').on('click', '.game-line .addToCart').click(function () {
         var cart = $('.shopping-cart');
         var imgtodrag = $(this).parents('.game-line').find("img").eq(0);
         if (imgtodrag) {
