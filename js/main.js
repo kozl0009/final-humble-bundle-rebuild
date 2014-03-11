@@ -22,15 +22,17 @@ jQuery(document).ready(function($){
 	
 	
 	//$( storyActions ).hide();
-	var priceDiv = ".game-line";
+	var priceDiv = "#list-of-games";
 
 	// With the element initially hidden, we can show it slowly:
-	$( priceDiv ).on('mouseenter', '.price', function() {
-		alert(this.id);
-		$("#game-cart-"+this.id).css('display','block');
-		$("#cart-"+this.id).css('display','none'); 
-		$("#game-cart"+this.id).css('white-space','nowrap');
-		$("#cart-"+this.id).css('white-space','nowrap');
+	$( priceDiv ).on('mouseenter', '.game-line', function() {
+		$(this).on('mouseenter', '.price', function() {
+			alert(this.id);
+			$("#game-cart-"+this.id).css('display','block');
+			$("#cart-"+this.id).css('display','none'); 
+			$("#game-cart"+this.id).css('white-space','nowrap');
+			$("#cart-"+this.id).css('white-space','nowrap');
+		});
 	}).on('mouseleave', '.addToCart', function() {
 		$("#game-cart-"+this.id).css('display','none');
 		$("#cart-"+this.id).css('display','block'); 
