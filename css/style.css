@@ -769,4 +769,6 @@ title, price, platform */
     padding: 5px 0 5px 33px; }
 
 .eachGameLine {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  overflow: hidden;
+  padding: 1px; }
