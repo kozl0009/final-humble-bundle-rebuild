@@ -27,17 +27,18 @@ jQuery(document).ready(function($){
 	// With the element initially hidden, we can show it slowly:
 	$( priceDiv ).on('mouseenter', '.game-line', function() {
 		$(this).on('mouseenter', '.price', function() {
-			alert(this.id);
-			$("#game-cart-"+this.id).css('display','block');
-			$("#cart-"+this.id).css('display','none'); 
-			$("#game-cart"+this.id).css('white-space','nowrap');
-			$("#cart-"+this.id).css('white-space','nowrap');
+			$("#game-"+this.id).css('display','block');
+			$("#"+this.id).css('display','none'); 
+			$("#game-"+this.id).css('white-space','nowrap');
+			$("#"+this.id).css('white-space','nowrap');
 		});
-	}).on('mouseleave', '.addToCart', function() {
-		$("#game-cart-"+this.id).css('display','none');
-		$("#cart-"+this.id).css('display','block'); 
-		$("#game-cart"+this.id).css('white-space','nowrap');
-		$("#cart-"+this.id).css('white-space','nowrap');
+	}).on('mouseleave', '.game-line', function() {
+		$(this).on('mouseleave', '.addToCart', function() {
+			$("#game-"+this.id).css('display','none');
+			$("#"+this.id).css('display','block'); 
+			$("#game-"+this.id).css('white-space','nowrap');
+			$("#"+this.id).css('white-space','nowrap');
+		});
 	});
 	
 /* fancybox trigger */
