@@ -4,19 +4,7 @@ jQuery(document).ready(function($){
 	
 	$( '#list-of-games' ).on('click', '.game-line', function(e) {
 		
-		for(var i=1;i<18;i++){
-			/*
-			$( "#game-"+i ).slideUp( "fast", function() {
-				//Animation Complete
-				//alert("here");
-			});
-			slide=false;
-			*/
-			//alert(i);
-			$( "#game-"+i).hide();
-			//alert("#game-"+i);
-			//if(i==17){ break; }
-		}
+		
 		if(slide==false){
 			$( "#game-"+this.id ).slideDown( "fast", function() {
 				$( "#game-"+this.id ).css('display', 'block');
