@@ -2,17 +2,15 @@ jQuery(document).ready(function($){
 	var slide=false;
 	var descrSelected=0;
 	$( '#list-of-games' ).on('click', '.game-line', function(e) {
-			if(descrSelected!=this.id){
+			if(descrSelected!=this.id && descrSelected!=""){
 				$( "#game-"+descrSelected ).slideUp( "fast", function() {
 					//$( "#game-"+descrSelected ).css('display', 'none');
 				});	
-				alert("here");
 			}
 			$( "#game-"+this.id ).slideDown( "fast", function() {
 				//$( "#game-"+this.id ).css('display', 'block');
 			});
 			descrSelected = this.id;
-			alert(descrSelected);
 	});
 	
 	
