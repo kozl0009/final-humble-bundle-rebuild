@@ -43,7 +43,8 @@ jQuery(document).ready(function($){
 
 $('#featured-game-6-descr').click(function() {
     $.fancybox({
-        $("#inline1").css('display', 'block');
+        type: 'inline',
+        content: ''
     });
 });
 
