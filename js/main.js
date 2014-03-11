@@ -27,11 +27,11 @@ jQuery(document).ready(function($){
 	// With the element initially hidden, we can show it slowly:
 	$( priceDiv ).on('mouseenter', '.game-line', function() {
 		$(this).on('mouseenter', '.buttons', function() {
-			$(".addToCart").css('display','block');
-			$(".price").css('display','none'); 
+			$("#game-cart-"+this.id).css('display','block');
+			$("#cart-"+this.id).css('display','none'); 
 		}).on('mouseleave', '.buttons', function() {
-			$(".addToCart").css('display','none');
-			$(".price").css('display','block'); 
+			$("#game-cart-"+this.id).css('display','none');
+			$("#cart-"+this.id).css('display','block'); 
 		});
 	});
 	
