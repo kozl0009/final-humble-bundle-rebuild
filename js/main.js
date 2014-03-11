@@ -2,7 +2,6 @@ jQuery(document).ready(function($){
 	var slide=false;
 	var descrSelected=0;
 	$( '#list-of-games' ).on('click', '.game-line', function(e) {
-		if(slide==false){
 			if(descrSelected!=0 && descrSelected!=this.id){
 				$( "#game-"+descrSelected ).slideUp( "fast", function() {
 					//$( "#game-"+descrSelected ).css('display', 'none');
@@ -12,16 +11,6 @@ jQuery(document).ready(function($){
 				//$( "#game-"+this.id ).css('display', 'block');
 			});
 			descrSelected = this.id;
-			slide=true;
-			alert("first: "+slide);
-		}else{
-			$( "#game-"+this.id ).slideDown( "fast", function() {
-				//$( "#game-"+this.id ).css('display', 'block');
-			});
-			slide=false;	
-			alert("second: "+slide);
-		}
-		slide=true;
 	});
 	
 	
