@@ -1,7 +1,7 @@
 jQuery(document).ready(function($){
 
 	var slide=false;
-	var descrSelected;
+	var descrSelected = "0";
 	
 	$( '#list-of-games' ).on('click', '.game-line', function(e) {
 		$( "#game-"+descrSelected ).slideUp( "fast", function() {
