@@ -13,9 +13,11 @@ jQuery(document).ready(function($){
 			});
 			descrSelected = this.id;
 			slide=true;
+		}else{
+			slide=false;	
 		}
 	});
-	slide=false;
+	
 	
 	//hide story actions
 	var storyActions = ".addToCart";
