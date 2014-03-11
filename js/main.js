@@ -7,7 +7,7 @@ jQuery(document).ready(function($){
 		for(var i=1;i<8;i++){
 			$( "#game-"+i ).slideUp( "fast", function() {
 				//Animation Complete
-				
+				alert("here");
 			});
 			slide=false;
 		}
