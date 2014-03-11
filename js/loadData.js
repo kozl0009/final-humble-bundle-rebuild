@@ -1,5 +1,5 @@
 $(document).ready(function(){
-   var data_file = "../json/games.json";
+   var data_file = "json/games.json";
    var http_request = new XMLHttpRequest();
    try{
       // Opera 8.0+, Firefox, Chrome, Safari
