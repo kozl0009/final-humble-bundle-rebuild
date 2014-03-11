@@ -11,13 +11,15 @@ jQuery(document).ready(function($){
 			$( "#game-"+this.id ).slideDown( "fast", function() {
 				//$( "#game-"+this.id ).css('display', 'block');
 			});
+			descrSelected = this.id;
 			slide=true;
+			alert("first: "+slide);
 		}else{
 			$( "#game-"+this.id ).slideDown( "fast", function() {
 				//$( "#game-"+this.id ).css('display', 'block');
 			});
-			descrSelected = this.id;
 			slide=false;	
+			alert("second: "+slide);
 		}
 	});
 	
