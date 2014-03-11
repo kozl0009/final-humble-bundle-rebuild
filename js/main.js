@@ -10,10 +10,10 @@ jQuery(document).ready(function($){
 			$( "#game-"+this.id ).slideDown( "fast", function() {
 				//$( "#game-"+this.id ).css('display', 'block');
 			});
-			if(this.id!=""){
-				descrSelected = this.id;
-			}else{
+			if(this.id==""){
 				descrSelected = 0;
+			}else{
+				descrSelected = this.id;
 			}
 	});
 	
